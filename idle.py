@@ -2,7 +2,6 @@
 
 import sys, time, os, ctypes
 import commands
-from daemon import Daemon
 
 class XScreenSaverInfo(ctypes.Structure):
     """ typedef struct { ... } XScreenSaverInfo; """
